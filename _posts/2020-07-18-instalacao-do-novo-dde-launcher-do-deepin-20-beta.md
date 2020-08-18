@@ -11,7 +11,7 @@ image: "/uploads/screen-capture_dde-desktop_20200718204821.png"
 ---
 Instalação do novo dde-launcher no deepin 20 beta.
 
-Baixe o arquivo .[deb](https://github.com/nilsonlinux/deepin/blob/master/DDE-Launcher-5.0.18-1-AMD64.DEB?raw=true "dde-launcher") e execute com dois cliques, para abrir com o gerenciador de pacotes do deepin.
+Baixe o arquivo .[deb](https://github.com/nilsonlinux/deepin/blob/master/dde-launcher_5.1.0.6-1_amd64.deb?raw=true "dde-launcher") e execute com dois cliques, para abrir com o gerenciador de pacotes do deepin.
 
 ![](/uploads/screen-capture_deepin-deb-installer_20200719120605.png) 
 
