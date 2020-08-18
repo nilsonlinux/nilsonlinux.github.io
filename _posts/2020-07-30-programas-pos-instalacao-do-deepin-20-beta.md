@@ -60,7 +60,7 @@ E por fim, instale o sublime text com este comando:
 
   Enquanto não sai o novo dde launcher nas atualizações oficiais do deepin 20 beta  eu sempre instalo o pacote rsrs.
 
-  [Dowload DDE-Launcher](https://github.com/nilsonlinux/deepin/blob/master/DDE-Launcher-5.0.18-1-AMD64.DEB?raw=true)
+  [Dowload DDE-Launcher](https://github.com/nilsonlinux/deepin/blob/master/dde-launcher_5.1.0.6-1_amd64.deb?raw=true)
 
   Tenho um post sobre a instalação [aqui](https://nilsonlinux.github.io/dde-launcher-deepin20)
 
