@@ -1,0 +1,169 @@
+---
+title: Novo Deepin 20.2.2
+description: ''
+tags: deepin linux
+image: data:image/png;base64,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
+comments: true
+edit_url: false
+mathjax: false
+permalink: deepin-20.2.2
+
+---
+Deepin é a principal distribuição de Linux da China, dedicada a fornecer um sistema operacional bonito, fácil de usar, seguro e confiável para usuários globais. ( [Classificação Global](https://distrowatch.com/table.php?distribution=deepin)）
+
+Em profundidade 20.2.2, uma nova App Store é lançada, com um novo design visual, interação simplificada, suporte a aplicativos Android e melhor gerenciamento de aplicativos. Além disso, os kernels são com o upstream, os mais modelos de GPU e placas gráficas são adaptados e aplicativos os profundos são, otimizados e corrigidos, estabilidade e aprimoramento aprimoradas e uma melhor experiência do usuário. Além do mais, deepin oferece suporte uma inicialização segura para garantir que o dispositivo inicializa um software confiável e protegido de segurança do sistema.
+
+**Nova App Store**
+
+A nova App Store está disponível. Nesta versão, o design é novo, uma interação é simplificada e a instalação em lote é suportada para economizar seu tempo, melhorando muito a experiência do usuário. O melhor layout de conteúdo, categorias otimizadas e classificações de classificações, downloads e tempo atualizado, tudo o que torna mais fácil descobrir diferentes tipos de aplicativos. Além disso, os contêineres e aplicativos Android são fornecidos para atender às necessidades dos usuários no trabalho, estudo, jogos e outros cenários.
+
+> Nota: Os contêineres do Android atualmente suportam apenas Kernel 5.10 (LTS). Para o Kernel 5.12 (Estável), o suporte ao Android está em andamento, vamos aguardar.
+
+![](https://www.deepin.org/wp-content/uploads/2021/06/1-en.jpg)
+
+**Suporte a inicialização segura**
+
+Para proteger seu dispositivo de rede formada, aprofundado após um certificado de Boot Seguro, uma primeira distribuição Linux na China a obter-lo. Quando você seleciona a Inicialização segura no BIOS (UEFI-BIOS apenas), o sistema inicializa apenas o kernel assinado durante a instalação e o dispositivo é inicializado apenas usando software confiável pelo fabricante original do equipamento (OEM).
+
+![](https://www.deepin.org/wp-content/uploads/2021/06/2-1.jpg)
+
+**Kernels mais poderosos**
+
+O kernel Stable é atualizado para o Kernel 5.12 e o kernel LTS tem uma pequena atualização para o Kernel 5.10 seguindo o upstream, que melhora ainda mais a estabilidade e compatibilidade do sistema. Além disso, os kernels duplos podem ser instalados e específicos manualmente.
+
+![](https://www.deepin.org/wp-content/uploads/2021/06/3-1.jpg)
+
+**Changelog**
+
+DDE
+
+* Escrito: uma variedade de métodos de autenticação biométrica na interface "login, tela de bloqueio e centro de controle".
+* Corrigido: em um ambiente de tela dupla, o hot swap criado com que o PC entra na tela de bloqueio com alta probabilidade.
+* Corrigido: a cor anormal do quadro de fundo do Bluetooth no Dock.
+* Corrigido: o centro de notificação travava ao ser aberto.
+* Fixo: a posição da janela do centro de controle foi deslocada após clicar nos ícones das telas primária e secundária no modo estendido.
+
+Gerenciador de arquivos
+
+* Escrito: suporte para protetores de tela personalizados por fotos.
+* Escrito: na visualização da lista, se as massas forem demais e ocupassem a página inteira, a opção "Nova pasta / documento" seria exibida no menu do botão direito.
+* Corrigido: após copiar um grande número de pequenos arquivos para uma unidade flash USB (NTFS) e interromper o processo de cópia, alguns arquivos na unidade flash USB não podem ser excluídos.
+* Corrigido: ao clicar em "Remover com segurança" para remover uma unidade de CD-ROM, o dispositivo normalmente não era removido.
+* Corrigido: erros ocorridos ao arrastar arquivos para uma unidade flash USB no formato ext4.
+* Fixo: os arquivos não podem ser arrastados para o vault de arquivos se o vault foi criado em uma caixa de diálogo de seleção de arquivo.
+* Corrigido: o aplicativo travava ao arrastar pastas de vários níveis de SMB / FTP para o local.
+* Fixo: as teclas de avanço e retrocesso não podem ser usadas na lista telefônica.
+* Corrigido: o aplicativo travava ao renomear uma pasta com um endereço Gerrit.
+* Fixo: o texto na caixa de pesquisa sobrepôs-se quando a largura da janela foi ajustada para o mínimo.
+* Fixo: os endereços de diretório na janela não foram centralizados.
+* Corrigido: vazamento de memória.
+* Corrigido: algumas opções estavam faltando no menu principal.
+* Corrigido: se recortar e colar uma pasta somente leitura para outros diretórios usando Ctrl + X e Ctrl + V, ao pressionar Ctrl + Z para desfazê-lo, ocorre um prompt de erro.
+* Corrigido: a lógica de esvaziar a lixeira no Dock era inconsistente com a do Gerenciador de Arquivos.
+* Corrigido: o espaço em disco da unidade óptica mostrado na página Computador estava incorreto após a desmontagem e remontagem da unidade óptica.
+* Corrigido: as informações da tag eram restauradas para o arquivo errado se dois arquivos com o mesmo nome na lixeira fossem restaurados.
+* Corrigido: a janela não desaparecia após clicar em "Ignorar" na janela de progresso.
+* Corrigido: não houve resposta após adicionar tags a duas pastas, clicando com o botão direito do mouse nas pastas no diretório de tags e abrindo-as com o programa padrão e clicando em "Confirmar".
+* Corrigido: o sistema travava pouco tempo depois de clicar com o botão direito em um arquivo no FTP enquanto cortava os arquivos.
+* Corrigido: as fotos e suas miniaturas não coincidiam.
+* Corrigido: a letra da unidade que deveria estar oculta não estava oculta na página Computador.
+* Fixo: o tamanho da fonte de um nome de arquivo marcado não foi alterado com as configurações de fonte do sistema.
+* Corrigido: havia um prompt "Falha ao gravar" após enviar repetidamente o mesmo arquivo para uma unidade flash USB no formato VFAT e clicar em "Substituir".
+* Fixo: a hora de criação do cofre de arquivos estava vazia se foi criado na caixa de diálogo de seleção de arquivo.
+* Corrigido: os registros na página Recente não desapareciam em tempo real após a modificação do nome do arquivo FTP / SMB.
+* Corrigido: o prompt de arquivo duplicado não aparecia depois de enviar repetidamente o mesmo arquivo da área de trabalho para um disco ext4.
+* Corrigido: o gerenciador de arquivos não mudava automaticamente para o diretório padrão, mas ainda mostrava o diretório FTP após desmontar o diretório FTP no Dock.
+* Corrigido: após marcar "Full-text search" nas configurações, um índice foi criado em ./config/deepin/dde-desktop.
+* Fixo: quando a escala de exibição foi definida para ≧ 1,25 para uma tela HiDPI, o ícone na coluna de informações era muito grande.
+* Corrigido: dizia "Falha na montagem" após clicar com o botão direito em uma pasta no diretório SMB e abri-la como administrador.
+
+Navegador
+
+* Adicionado: novas extensões.
+* Aprimorado: a exibição da IU sob a caixa de pesquisa.
+* Melhorado: importação de favoritos do Chrome.
+* Corrigido: o arquivo HTML era mostrado desordenadamente após ser salvo localmente.
+* Corrigido: o menu na barra de navegação esquerda da página de configurações não foi unificado.
+* Corrigido: algumas fotos não eram exibidas claramente no navegador.
+
+Manual
+
+* Fixo: o texto na barra esquerda era obscurecido quando o tamanho da fonte do sistema era 14.
+* Fixo: linhas verticais à esquerda da caixa de pesquisa.
+* Corrigido: alguns ícones não eram exibidos na página de resultados da pesquisa.
+
+Downloader
+
+* Melhorado: a fonte pode ser alterada com as configurações de fonte do sistema.
+* Fixo: a exibição anormal de ícones e nomes de processos.
+* Fixo: nomes e tamanhos de recursos inconsistentes quando métodos de download diferentes eram usados.
+* Corrigido: alguns tipos de tarefas de download não estavam funcionando corretamente.
+* Corrigido: o ícone de downloader incorreto no inicializador.
+* Corrigido: o downloader não pode ser chamado para iniciar o download ocasionalmente.
+
+Centro de Controle
+
+* Corrigido: quando "Desativar touchpad quando um mouse é conectado" estava ativado, mesmo se o mouse estava desconectado, o touchpad ainda não funcionava.
+* Corrigido: contas de usuário não podem ser excluídas com sucesso.
+* Corrigido: o dock tornou-se anormal após clicar duas vezes no touchpad com dois dedos.
+* Corrigido: o "switch de espelho inteligente" ativado foi alterado inesperadamente para desligar.
+
+Álbum
+
+* Corrigido: extravio de alguns botões.
+* Corrigido: o aplicativo fechava ao sair do menu principal na interface de visualização de imagens.
+
+Música
+
+* Corrigido: o botão Reproduzir tudo na página de resultados da pesquisa não pode ser clicado.
+
+Desenhar
+
+* Corrigido: a resposta era lenta ao escolher cores na paleta se a escala de exibição de HiDPI estava definida para 2.0 e superior.
+* Corrigido: a janela "visualização de impressão" não era exibida ao imprimir pela primeira vez após a abertura do aplicativo.
+
+Visualizador de imagens
+
+* Fixo: os cantos arredondados das janelas não foram alterados com as configurações no centro de controle.
+
+Instalador de sistema
+
+* Corrigido: às vezes o sistema não pode ser instalado.
+* Corrigido: nenhuma opção de inicialização para profundamente no caminho / boot / efi / EFI.
+* Corrigido: os problemas de interface do usuário na janela de seleção de idioma.
+* Fixo: o layout do teclado foi alterado automaticamente de acordo com o idioma selecionado em vez do configurado.
+
+Correspondência
+
+* Corrigido: o aplicativo travava após clicar em "Enviar" ou salvar o rascunho.
+* Corrigido: os e-mails eram perdidos após vincular uma conta POP3 e reiniciar o aplicativo.
+* Corrigido: o aplicativo travava quando um e-mail era excluído da janela de conversas.
+* Corrigido: o problema de exportação para um único e-mail.
+* Corrigido: o botão do meio do mouse não respondia após selecionar um e-mail e rolar na página de e-mails agregados.
+* Corrigido: uma lista de e-mails agregada não era atualizada quando novos e-mails eram recebidos.
+* Fixo: expansão automática da lista de mala direta agregada.
+
+Instalador de pacotes
+
+* Corrigido: o aplicativo travava assim que o botão Instalar era clicado.
+
+Adaptação de Hardware
+
+* Escrito suporte para diferentes modelos de GPU, incluindo A10, A10G, A30, PG506-232, RTX A4000, RTX A5000, T400, T600.
+* Escrito suporte para uma placa de rede rtl8852ae.
+
+**Baixar ISO**
+
+Baixe oficial: [http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso](http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso "http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso")
+
+OSDN: [https://osdn.net/projects/deepin/storage/20.2.2](http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso "http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso")
+
+SourceForge: [https://sourceforge.net/projects/deepin/files/20.2.2/deepin-desktop-community-20.2.2-amd64.iso](http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso "http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso")
+
+Google Drive: [https://drive.google.com/drive/folders/151KDDRyvx8QTijB8LdloV-ByHlwGotRa](http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso "http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso")
+
+BT: [https://www.mediafire.com/folder/8rafnt1zqihru/deepin_20.2.2](http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso "http://cdimage.deepin.com/releases/20.2.2/deepin-desktop-community-20.2.2-amd64.iso")
+
+**Agradecimentos**
+
+Agradecemos solenemente às equipes e empresas da comunidade que forneceram [suporte de](https://www.deepin.org/mirrors/releases/) teste, documentos, [tradução](https://www.transifex.com/linuxdeepin/public/) e [espelhamento](https://www.deepin.org/mirrors/releases/) . Bem-vindo a usar o deepin e participar do nosso [fórum](https://bbs.deepin.org/forum.php?gid=69) para enviar comentários e compartilhar suas sugestões. 
