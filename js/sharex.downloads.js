@@ -2,7 +2,7 @@ $(document).ready(function() {
     let repo = GetParameterByName("repo");
 
     if (!repo) {
-        repo = "ShareX/ShareX";
+        repo = "nilsonlinux/Nilsonlinux";
     }
 
     let repoInput = $("#downloads-repo");
@@ -25,7 +25,7 @@ $(document).ready(function() {
 
 async function GetReleases(repo) {
     if (!repo) {
-        repo = "ShareX/ShareX";
+        repo = "nilsonlinux/Nilsonlinux";
     }
 
     $(".table-downloads tbody tr").remove();
