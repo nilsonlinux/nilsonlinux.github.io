@@ -6,7 +6,7 @@ $(document).ready(function() {
     }
 
     if (code) {
-        $("#title").text("Please paste following code in ShareX");
+        $("#title").text("Please paste following code in Nilsonlinux");
         $("#code").val(code);
 
         $(".container-callback .btn").on("click", function() {
