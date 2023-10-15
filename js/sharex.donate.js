@@ -3,7 +3,7 @@ $(document).ready(function() {
         let button = $(this);
         let text = button.prev("input[type='text']").val();
         navigator.clipboard.writeText(text).then(function() {
-            button.text("Copied!");
+            button.text("Copiado!");
             setTimeout(function() {
                 button.text("Copy to clipboard");
             }, 2000);
