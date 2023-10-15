@@ -1,9 +1,9 @@
-name: ShareX
-title: ShareX - The best free and open source screenshot tool for Windows
-description: ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
-url: https://getsharex.com
-author: ShareX Team
-github: https://github.com/ShareX/ShareX
+name: NilsoN
+title: Nilsonlinux - Automação e produtividade.
+description: Nilsonlinux is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
+url: https://nilsonlinux.github.io/
+author: Nilsonlinux
+github: https://github.com/nilsonlinux/Nilsonlinux
 twitter: ShareX
 
 encoding: utf-8
