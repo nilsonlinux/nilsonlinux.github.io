@@ -7,8 +7,8 @@ $(document).ready(function() {
 });
 
 function GetLatestReleaseInfo() {
-    $.getJSON("https://api.github.com/repos/ShareX/ShareX/releases/latest").done(function(release) {
-        UpdateDownloadButton(release, ".exe", $(".sharex-setup"));
+    $.getJSON("https://api.github.com/repos/nilsonlinux/Nilsonlinux/releases/latest").done(function(release) {
+        UpdateDownloadButton(release, ".deb", $(".sharex-setup"));
         UpdateDownloadButton(release, "portable.zip", $(".sharex-portable"));
     });
 
