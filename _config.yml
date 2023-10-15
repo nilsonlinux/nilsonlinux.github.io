@@ -1,10 +1,10 @@
-name: NilsoN
-title: Nilsonlinux - Automação e produtividade.
-description: Nilsonlinux is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
+name: Nilson
+title: Nilsonlinux Web
+description: Nilsonlinux. Desenvolvedor de soluções com automação inteligente.
 url: https://nilsonlinux.github.io/
 author: Nilsonlinux
 github: https://github.com/nilsonlinux/Nilsonlinux
-twitter: ShareX
+twitter: Nilsonlinux
 
 encoding: utf-8
 markdown: kramdown
