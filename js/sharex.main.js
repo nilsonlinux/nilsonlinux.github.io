@@ -9,7 +9,7 @@ $(document).ready(function() {
 function GetLatestReleaseInfo() {
     $.getJSON("https://api.github.com/repos/nilsonlinux/Nilsonlinux/releases/latest").done(function(release) {
         UpdateDownloadButton(release, ".deb", $(".sharex-setup"));
-        UpdateDownloadButton(release, "portable.zip", $(".sharex-portable"));
+        UpdateDownloadButton(release, ".deb", $(".sharex-portable"));
     });
 
     $.getJSON("https://api.github.com/repos/ShareX/DevBuilds/releases/latest").done(function(release) {
