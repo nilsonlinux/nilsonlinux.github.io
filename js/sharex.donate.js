@@ -5,12 +5,12 @@ $(document).ready(function() {
         navigator.clipboard.writeText(text).then(function() {
             button.text("Copiado!");
             setTimeout(function() {
-                button.text("Copy to clipboard");
+                button.text("Copiar");
             }, 2000);
         }, function() {
             button.text("Copy failed.");
             setTimeout(function() {
-                button.text("Copy to clipboard");
+                button.text("Copiar");
             }, 2000);
         });
     });
