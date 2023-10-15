@@ -9,7 +9,7 @@ $(document).ready(function() {
 function GetLatestReleaseInfo() {
     $.getJSON("https://api.github.com/repos/nilsonlinux/Nilsonlinux/releases/latest").done(function(release) {
         UpdateDownloadButton(release, ".deb", $(".ncode-linux"));
-        UpdateDownloadButton(release, ".deb", $(".ncode-offline-install"));
+        UpdateDownloadButton(release, ".zip", $(".ncode-offline-install"));
     });
 
     $.getJSON("https://api.github.com/repos/ShareX/DevBuilds/releases/latest").done(function(release) {
