@@ -9,11 +9,11 @@ Ncode only sends files (images, text, video, etc.) selected or captured by the u
 
 ShareX checks for updates at startup, and also between intervals using GitHub API and downloads the updates from GitHub when the user permits it.
 
-Ncode utilizes https://bwipjs-api.metafloor.com [API](https://bwipjs-api.metafloor.com) Services to facilitate. By using Ncode Web' Terms of Service.
+Ncode Webutilizes https://bwipjs-api.metafloor.com [API](https://bwipjs-api.metafloor.com) Services to facilitate. By using Ncode Web' Terms of Service.
 
 Our web site uses Google Analytics, which helps us to see page view counts.
 
-ShareX encourages users to review the Privacy Policies of the third-party services we currently integrate with:
+Ncode encourages users to review the Privacy Policies of the third-party services we currently integrate with:
 
 * [GitHub Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement)
 * [Google Privacy & Terms](https://policies.google.com/privacy)
