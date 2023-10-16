@@ -3,13 +3,13 @@ layout: markdown
 title: Privacy Policy
 ---
 
-ShareX application does not collect any data of any kind, including personally identifiable information. 
+Ncode application does not collect any data of any kind, including personally identifiable information. 
 
-ShareX only sends files (images, text, video, etc.) selected or captured by the user to third party services which the user chooses themselves to configure. Prior to its very first upload, ShareX provides a warning with a five-second auto-pause delay timer to ensure the user is attentive while requesting confirmation of the upload.
+Ncode only sends files (images, text, video, etc.) selected or captured by the user to third party services which the user chooses themselves to configure. Prior to its very first upload, Ncode Web provides a warning with a five-second auto-pause delay timer to ensure the user is attentive while requesting confirmation of the upload.
 
 ShareX checks for updates at startup, and also between intervals using GitHub API and downloads the updates from GitHub when the user permits it.
 
-ShareX utilizes YouTube API Services to facilitate video uploads to YouTube. By using ShareX's API clients for YouTube services, users agree to abide by the YouTube Terms of Service.
+Ncode utilizes https://bwipjs-api.metafloor.com [API](https://bwipjs-api.metafloor.com) Services to facilitate. By using Ncode Web' Terms of Service.
 
 Our web site uses Google Analytics, which helps us to see page view counts.
 
@@ -23,4 +23,4 @@ ShareX encourages users to review the Privacy Policies of the third-party servic
 
 Please take the time to familiarize yourself with these documents to understand how your information is handled when utilizing our services.
 
-Users are able to contact the development team [from here](https://github.com/ShareX/ShareX/issues).
+Users are able to contact the development team [from here](https://github.com/nilsonlinux/Nilsonlinux/issues).
