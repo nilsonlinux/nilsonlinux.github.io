@@ -1,152 +1,378 @@
----
-layout: page
-title: Doação
----
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
 
-<div class="container-donate">
+    <title>Gerador de Código de Barras EAN-13</title>
+    <style>
+
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    .skeleton-wrapper {
+      width: 300px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .skeleton-circle {
+      animation: loading 3s infinite;
+      background: linear-gradient(90deg, #000000 25%, #a8a8a8 50%, #000000 75%);
+      background-size: 250% 80%;
+      border-radius: 2%;
+      display: inline-block;
+      width: 300px;
+      height: 300px;
+      margin: 0px auto; 
+    }
+
+    .skeleton-nome {
+        margin-top: 41px;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(90deg, #030000 25%, #a8a8a8 50%, #030303 75%);
+        background-size: 250% 80%;
+        height: 20px;
+        width: 52%;
+        border-radius: 20px;
+        animation: loading 3s infinite;
+    }
+
+    .skeleton-text {
+        margin-top: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(90deg, #080808 25%, #a8a8a8 50%, #000000 75%);
+        background-size: 250% 80%;
+        height: 16px;
+        width: 42%;
+        border-radius: 100px;
+        animation: loading 3s infinite;
+    }
+
+    .nilsonlinux {
+      margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #000000;
+        color: #03fd24;
+        font-weight: bold;
+        border: 1px solid #067c02;
+        height: 16px;
+        width: 42%;
+        border-radius: 20px;
+        }
+
+    @keyframes skeleton-loading {
+      0% {
+        opacity: 0.7;
+      }
+      50% {
+        opacity: 0.2;
+      }
+      100% {
+        opacity: 0.7;
+      }
+    }
+
+    .profile {
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .profile img {
+      width: 300px;
+      height: 300px;
+      border-radius: 2%;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      text-align: center;
+      color: #ffffff;
+    }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #3d3c3c;
+        }
+        .container {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: hwb(0 33% 67% / 0.986);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(37, 37, 37);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 60%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 50px;
+            border: 1px solid #ff7e05;
+        }
+        button {
+            background-color: #757574;
+            color: #fcfcfc;
+            border: none;
+            border-radius: 50px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2c2c2c;
+            transition: background-color 0.3s; /* Transição de cor suave */
+            
+        }
+        #barcode {
+            margin-top: 20px;
+        }
+        .skeleton {
+            animation: loading 1s infinite;
+            background: linear-gradient(90deg, #1efd00 25%, #000000 50%, #ff0303 75%, #bbff00 75%);
+            background-size: 250% 80%;
+            border-radius: 5px;
+            display: inline-block;
+            width: 64%;
+            height: 81px;
+        }
+
+        @keyframes loading {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+
+        .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço de margem superior para afastar o botão do código de barras */
+}
+
+         button2 {
+            background-color: #1379d8;
+            color: #fafafa;
+            border: none;
+            border-radius: 7px;
+            padding: 8px 8px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Transição de cor suave */
+        }
+        button2:hover {
+            background-color: #150983;
+        }
+
+        @media (max-width: 768px) {
+    h1 {
+        font-size: 10px;
+    }
+}
+
+         /* Estilos para os botões de redes sociais em formato de círculo */
+         .social-buttons {
+            margin: 10px;
+        }
+
+        .social-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            text-align: center;
+            position: relative;
+        }
+
+        .social-buttons a i {
+            background-color: #5a5a5c; /* Cor de fundo do botão */
+            color: #fff; /* Cor do ícone */
+            font-size: 24px; /* Tamanho do ícone */
+            border-radius: 50%; /* Formato de círculo */
+            width: 40px; /* Largura do botão */
+            height: 40px; /* Altura do botão */
+            line-height: 40px; /* Centralizar o ícone verticalmente */
+            transition: background-color 0.3s; /* Transição de cor suave */
+
+        }
+
+        .social-buttons a:hover i {
+            background-color: #292a2b; /* Cor de fundo do botão no hover */
+        }
+
+        .social-buttons a .tooltip {
+            visibility: hidden;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 40px;
+            left: 40%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .social-buttons a:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .social-buttons a.skeleton-icon::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, #363434 25%, #ffffff 50%, #272626 75%);
+            background-size: 250% 80%;
+            animation: loading 2s infinite;
+            border-radius: 50%;
+            display: inline-block;
+      width: 40px;
+      height: 40px;
+        }
+
+        .social-buttons a .tooltip {
+            visibility: hidden;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .social-buttons a:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
     <div class="container">
-        <p>Tenho desenvolvido o Ncode Linux nos ultimos {{ site.time | date: '%Y' | minus: 2020 }} anos. Sempre foi e continuará gratuito, sem propagandas ou mensalidades. E recentemente tornei o Ncode acessível via Web. Possibilitando o uso em qualquer dispositivo com conexão a internet, independente do sistema operacional em uso.</p>
-
-        <p class="alert alert-primary">CARO USUÁRIO, ESPERO QUE ESTA MENSAGEM O ENCONTRE BEM.</p>
+        <div class="skeleton-wrapper">
+            <div class="skeleton-circle"></div>
+            <div class="skeleton-nome"></div>
+            <div class="skeleton-text"></div>
+          </div>
         
-Estou escrevendo em nome de todo desenvolvimento de projetos de código aberto pensados e desenvolvidos por mim.
-Para pedir sua ajuda e apoio na forma de uma doação para que eu possa continuar aprimorando e mantendo todos os projetos.
-Os esforços são dedicados a fornecer uma solução de código aberto acessível e de alta qualidade para que seja utilizado da forma mais simples possível com retorno super funcional. 
-Estou orgulhoso do progresso feitos até agora, mas o sucesso contínuo do projeto depende, em grande parte, do apoio generoso de pessoas como você.
-Sua doação contribuirá para:
-Manter a infraestrutura do projeto: As despesas de hospedagem, servidores, e outros custos associados à manutenção do projeto.
-Desenvolvimento contínuo: Recursos, atualizações e aprimoramentos para atender às necessidades da comunidade de usuários.
-Suporte técnico: Oferecer suporte a usuários e solucionar problemas relacionados ao projeto.
-Promoção e conscientização: Alcançar um público mais amplo e construir uma comunidade forte em torno do projeto.
-Sua doação, não importa o valor, faz uma diferença significativa. E, como agradecimento por seu apoio, estou oferecendo suporte e melhor adaptação, como acesso antecipado a recursos, reconhecimento público, etc.].
-Para doar, basta escolher uma das formas implementadas aqui. e siga as instruções. Todas as contribuições são bem-vindas e serão usadas de maneira responsável para o benefício de nossa comunidade de usuários e da evolução do projeto.
-Agradecemos antecipadamente por sua generosidade e apoio contínuo ao nosso projeto. Juntos, podemos continuar a fazer a diferença e criar um impacto positivo no mundo do código aberto.
-Se você tiver alguma dúvida ou precisar de mais informações, não hesite em entrar em contato comigo através do Telegram @Nilsonlinux.
-Muito obrigado pela consideração e pelo apoio contínuo.</p>
-
-Atenciosamente,</p>
-
-Josenilson (Nilsonlinux)</p>
-Desenvolvimento automatizacional</p>
-Ncode - Automação</p>
-nilsonlinux@gmail.com</p>
-</p>
-
-        <div class="text-center">
-            <a class="btn" role="button" target="_blank" href="https://www.paypal.com/donate?campaign_id=QP32HKS8SJCT4">
-                <i class="fa-brands fa-paypal"></i>Doe com Paypall
-            </a>
-            <a class="btn" role="button" href="#" data-toggle="modal" data-target="#pix-modal">
-                <i class="fa-brands fa-usd"></i>Faça um PIX<i class="fa-solid fa-star"></i>
-            </a>            
-            <a class="btn" role="button" href="#" data-toggle="modal" data-target="#bitcoin-modal">
-                <i class="fa-brands fa-bitcoin"></i>Bitcoin
-            </a>
-            <a class="btn" role="button" href="#" data-toggle="modal" data-target="#ethereum-modal">
-                <i class="fa-brands fa-ethereum"></i>Ethereum
-            </a>
-        </div>
-
-
-        <div id="pix-modal" class="modal fade crypto-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title w-100 text-center"><i class="fa-brands fa-usd"></i>Faça um PIX</h4>
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span>&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center">
-                            <img class="crypto-qr" src="/img/infinitepay.png" />
-                            <div class="crypto-address">
-                                <input type="text" class="form-control" value="nilsonlinux@meu.pix" readonly />
-                                <a class="btn btn-clipboard-copy" role="button">Copiar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="profile" style="display: none;">
+            <img src="http://10.172.68.76/img/donate.png" alt="Ncode">
+            <div class="info">
+              <h4 class="name"></h2>
+              <p class="nilsonlinux dev"></p>
             </div>
-        </div>        
+          </div>
+      </div>
+    <script>
+            // Simulando o carregamento de informações
+            setTimeout(function() {
+            const skeletonIcons = document.querySelectorAll('.skeleton-icon');
+            skeletonIcons.forEach(function(icon) {
+                icon.classList.remove('skeleton-icon');
+            });
+        }, 1000); // 2 segundos
 
-        <div id="bitcoin-modal" class="modal fade crypto-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title w-100 text-center"><i class="fa-brands fa-bitcoin"></i>Bitcoin</h4>
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span>&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center">
-                            <img class="crypto-qr" src="/img/Bitcoin_QR.png" />
-                            <div class="crypto-address">
-                                <input type="text" class="form-control" value="bc1qqcxjwyle23gnwscec2d2ef3n7hh5pl9yq6fthq" readonly />
-                                <a class="btn btn-clipboard-copy" role="button">Copiar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    setTimeout(function() {
+      const skeletonWrapper = document.querySelector('.skeleton-wrapper');
+      const profileDiv = document.querySelector('.profile');
 
-        <div id="ethereum-modal" class="modal fade crypto-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title w-100 text-center"><i class="fa-brands fa-ethereum"></i>Ethereum</h4>
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span>&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="text-center">
-                            <img class="crypto-qr" src="/img/Ethereum_QR.png" />
-                            <div class="crypto-address">
-                                <input type="text" class="form-control" value="0x01A2912Ed1CB69E51EE267614d73BfBccE385E09" readonly />
-                                <a class="btn btn-clipboard-copy" role="button">Copiar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+      skeletonWrapper.style.display = 'none';
+      profileDiv.style.display = 'block';
 
-<div class="container-donate-2">
-    <div class="container">
-        <div class="patrons-panel">
-            <h3>Donators</h3>
-            <table class="table">
-                <tr>
-                    <th>Nome</th>
-                    <th>Website</th>
-                    <th>Total de doações</th>
-                </tr>
-                {% assign sortedDonators = site.data.donators | sort: "amount" | reverse %}
-                {% for donator in sortedDonators %}
-                <tr>
-                    <td>{{ donator.name }}
-                        {% if donator.twitter %}<a href="{{ donator.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
-                        {% if donator.facebook %}<a href="{{ donator.facebook }}"><i class="fab fa-facebook"></i></a>{% endif %}
-                        {% if donator.github %}<a href="{{ donator.github }}"><i class="fab fa-github"></i></a>{% endif %}
-                        {% if donator.twitch %}<a href="{{ donator.twitch }}"><i class="fab fa-twitch"></i></a>{% endif %}
-                        {% if donator.youtube %}<a href="{{ donator.youtube }}"><i class="fab fa-youtube"></i></a>{% endif %}
-                        {% if donator.linkedin %}<a href="{{ donator.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
-                        {% if donator.instagram %}<a href="{{ donator.instagram }}"><i class="fab fa-instagram"></i></a>{% endif %}
-                        {% if donator.steam %}<a href="{{ donator.steam }}"><i class="fab fa-steam"></i></a>{% endif %}
-                    </td>
-                    <td>{% if donator.website %}<a href="{{ donator.website }}">{{ donator.website }}</a>{% endif %}</td>
-                    <td>{% if donator.amount %}${{ donator.amount }}{% else %}*{% endif %}</td>
-                </tr>
-                {% endfor %}
-            </table>
-        </div>
-    </div>
-</div>
+      // Preenchendo as informações
+      const name = 'Faça a sua Doação';
+      const dev = '</>Nilsonlinux';
 
-{% include common-js.html %}
-<script src="/js/sharex.donate.js"></script>
+      document.querySelector('.name').textContent = name;
+      document.querySelector('.dev').textContent = dev;
+    }, 2000); // Tempo simulado para a animação do skeleton-screen
+
+        function generateBarcode() {
+            const username = document.getElementById("username").value;
+            const gmcore = document.getElementById("gmcore").value;
+
+            // Verifique se o código é válido (6 dígitos)
+            if (gmcore.length !== 6 || !/^\d+$/.test(gmcore)) {
+                alert("Por favor, forneça um código Gmcore (6 dígitos). Caso o usuário possuir 4 ou 5 dígitos, complete com Zeros (0) no inicio do código. Exemplo: 001234, 012345");
+                return;
+            }
+
+            
+
+        // Atualize o esqueleto de carregamento
+        const barcodeElement = document.getElementById("barcode");
+        barcodeElement.classList.add("skeleton");
+
+        // Faça a solicitação à API para gerar o código de barras
+        fetch(`https://api.invertexto.com/v1/barcode?token=5004|wxHLrtvJcFVYtngmoCoaYe0eDnnjoIWP&text=000000${gmcore}&type=ean13&font=arial`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Erro na solicitação à API: ${response.statusText}`);
+                }
+                return response.blob();
+            })
+            .then(blob => {
+    // Crie uma URL para a imagem
+    const imageUrl = URL.createObjectURL(blob);
+
+    // Exiba a imagem do código de barras
+    barcodeElement.innerHTML = `<img src="${imageUrl}" alt="Código de Barras EAN-13">`;
+    barcodeElement.classList.remove("skeleton"); // Remova o efeito de carregamento
+
+    // Mostre o botão de impressão
+    const printButton = document.getElementById("printButton");
+    printButton.style.display = "block";
+})
+            .catch(error => {
+                alert(`Erro ao gerar o código de barras: ${error.message}`);
+                barcodeElement.classList.remove("skeleton"); // Remova o efeito de carregamento em caso de erro
+                barcodeElement.innerHTML = ""; // Remova qualquer imagem anterior
+            });
+    }
+
+    function printBarcode() {
+    const barcodeImage = document.querySelector("#barcode img");
+
+    if (barcodeImage) {
+        const win = window.open('Ncode', '_blank');
+        win.document.open();
+        win.document.write(`<html>
+        <head><title>Faça a sua doação</title></head>
+        <center><img src="${barcodeImage.src}" alt="Código de Barras EAN-13" style="width: 100px; height: 50px;"></center>
+        <center><text>- - - - - - - - - - - - - - - -</text></center>
+        <center><img src="${barcodeImage.src}" alt="Código de Barras EAN-13" style="width: 100px; height: 50px;"></center>
+        <center><text>- - - - - - - - - - - - - - - -</text></center>
+        <center><img src="${barcodeImage.src}" alt="Código de Barras EAN-13" style="width: 100px; height: 50px;"></center>
+        <center><text>- - - - - - - - - - - - - - - -</text></center>
+        <center><img src="${barcodeImage.src}" alt="Código de Barras EAN-13" style="width: 100px; height: 50px;"></center>
+        <center><text>- - - - - - - - - - - - - - - -</text></center>
+        <center><p style="font-size: 13px;">Desenvolvido por: Nilsonlinux</p></center>
+        </body></html>`);
+        win.document.close();
+        win.print();
+        win.close();
+    } else {
+        alert("O código de barras ainda não foi gerado.");
+    }
+}
+    </script>
+</body>
+</html>
