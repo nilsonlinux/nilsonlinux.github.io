@@ -342,7 +342,7 @@ body {
         barcodeElement.classList.add("skeleton");
 
         // Faça a solicitação à API para gerar o código de barras
-        fetch(`https://bwipjs-api.metafloor.com/?bcid=ean13&scaleX=2&scaleY=1&text=000000${gmcore}&parsefnc&alttext=${username} ${gmcore}`)
+        fetch(`https://api.invertexto.com/v1/barcode?token=5004|wxHLrtvJcFVYtngmoCoaYe0eDnnjoIWP&text=000000${gmcore}&type=ean13&font=arial`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`Erro na solicitação à API: ${response.statusText}`);
